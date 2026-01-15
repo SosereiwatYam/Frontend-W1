@@ -86,16 +86,6 @@ function renderQuestions() {
     let actions = document.createElement("div");
     actions.className = "actions";
     card.appendChild(actions);
-
-    let editAction = document.createElement("img");
-    editAction.src = "../../img/edit.svg";
-    editAction.addEventListener("click", editQuestion);
-    actions.appendChild(editAction);
-
-    let trashAction = document.createElement("img");
-    trashAction.src = "../../img/trash.png";
-    trashAction.addEventListener("click", removeQuestion);
-    actions.appendChild(trashAction);
   }
 }
 
